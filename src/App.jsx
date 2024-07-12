@@ -1,4 +1,3 @@
-import React from "react";
 import NavBar from "@/components/NavBar";
 import Home from "@/sections/Home";
 import About from "@/sections/About";
@@ -10,8 +9,15 @@ import ScrollToTop from "@/components/ScrollToTop";
 import Footer from "@/components/Footer";
 import { Element } from "react-scroll";
 import { BrowserRouter } from "react-router-dom";
+import React, { useEffect } from "react";
+import { initGA, logPageView } from "@/utils/analytics";
 
 function App() {
+  useEffect(() => {
+    initGA();
+    logPageView();
+  }, []);
+
   return (
     <BrowserRouter>
       <NoiseBackground />

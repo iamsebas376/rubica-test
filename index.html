@@ -14,41 +14,52 @@
     />
     <meta name="author" content="WebTech Solutions" />
     <meta name="theme-color" content="#1B3022" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Favicon -->
     <link
       rel="icon"
       type="image/svg+xml"
-      href="./src/assets/images/favicon.webp"
+      href="/src/assets/images/favicon.webp"
     />
-    <meta name="robots" content="index, follow" />
 
     <!-- Open Graph / Facebook -->
-    <meta property="og:image" content="./src/assets/images/preview.webp" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="WebTech Solutions" />
     <meta
       property="og:description"
-      content="Descripción breve de tu sitio web para redes sociales."
+      content="En WebTech Solutions, creamos experiencias web únicas y funcionales que impulsan tu negocio hacia el éxito digital. Nuestro equipo está comprometido con la excelencia en diseño y desarrollo web."
     />
-    <meta
-      property="og:image"
-      content="URL de la imagen para compartir en redes sociales"
-    />
-    <meta property="og:url" content="URL de tu sitio web" />
+    <meta property="og:image" content="/src/assets/images/preview.webp" />
+    <meta property="og:url" content="https://webtech-solutions.netlify.app/" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:title" content="WebTech Solutions" />
     <meta
       property="twitter:description"
-      content="Descripción breve de tu sitio web para Twitter."
+      content="En WebTech Solutions, creamos experiencias web únicas y funcionales que impulsan tu negocio hacia el éxito digital. Nuestro equipo está comprometido con la excelencia en diseño y desarrollo web."
     />
-    <meta
-      property="twitter:image"
-      content="URL de la imagen para compartir en Twitter"
+    <meta property="twitter:image" content="/src/assets/images/preview.webp" />
+
+    <!-- Fuente Google Fonts de manera asincrónica -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap"
+      media="print"
+      onload="this.onload=null;this.removeAttribute('media');"
     />
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap"
+    /></noscript>
   </head>
   <body>
     <div id="root"></div>
+
+    <!-- JavaScript -->
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

@@ -52,7 +52,7 @@ export default function Component() {
             Contacto
           </Link>
         </nav>
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-4 mt-10 sm:mt-0">
           <a
             href="https://www.facebook.com/"
             target="_blank"

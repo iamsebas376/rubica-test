@@ -14,7 +14,7 @@ export default function Component() {
             smooth={true}
             offset={-70}
             duration={500}
-            className="hover:scale-105 transition-all duration-300 cursor-pointer"
+            className="hover:scale-105 hover:text-white transition-all duration-300 cursor-pointer"
           >
             Inicio
           </Link>
@@ -25,7 +25,7 @@ export default function Component() {
             smooth={true}
             offset={-70}
             duration={500}
-            className="hover:scale-105 transition-all duration-300 cursor-pointer"
+            className="hover:scale-105 hover:text-white transition-all duration-300 cursor-pointer"
           >
             Sobre Nosotros
           </Link>
@@ -36,7 +36,7 @@ export default function Component() {
             smooth={true}
             offset={0}
             duration={500}
-            className="hover:scale-105 transition-all duration-300 cursor-pointer"
+            className="hover:scale-105 hover:text-white transition-all duration-300 cursor-pointer"
           >
             Servicios
           </Link>
@@ -47,7 +47,7 @@ export default function Component() {
             smooth={true}
             offset={-70}
             duration={500}
-            className="hover:scale-105 transition-all duration-300 cursor-pointer"
+            className="hover:scale-105 hover:text-white transition-all duration-300 cursor-pointer"
           >
             Contacto
           </Link>
@@ -57,7 +57,7 @@ export default function Component() {
             href="https://www.facebook.com/"
             target="_blank"
             aria-label="Facebook"
-            className="text-neutral-300 hover:scale-110 transition-all duration-300"
+            className="text-neutral-300 hover:text-white hover:scale-110 transition-all duration-300"
           >
             <FaFacebook className="h-5 w-5" />
           </a>
@@ -65,7 +65,7 @@ export default function Component() {
             href="https://x.com"
             target="_blank"
             aria-label="Twitter"
-            className="text-neutral-300 hover:scale-110 transition-all duration-300"
+            className="text-neutral-300 hover:text-white hover:scale-110 transition-all duration-300"
           >
             <FaTwitter className="h-5 w-5" />
           </a>
@@ -73,7 +73,7 @@ export default function Component() {
             href="https://www.instagram.com/"
             target="_blank"
             aria-label="Instagram"
-            className="text-neutral-300 hover:scale-110 transition-all duration-300"
+            className="text-neutral-300 hover:text-white hover:scale-110 transition-all duration-300"
           >
             <FaInstagram className="h-5 w-5" />
           </a>
@@ -81,7 +81,7 @@ export default function Component() {
             href="https://www.linkedin.com/"
             target="_blank"
             aria-label="LinkedIn"
-            className="text-neutral-300 hover:scale-110 transition-all duration-300"
+            className="text-neutral-300 hover:text-white hover:scale-110 transition-all duration-300"
           >
             <FaLinkedin className="h-5 w-5" />
           </a>

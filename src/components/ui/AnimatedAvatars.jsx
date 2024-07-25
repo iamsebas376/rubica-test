@@ -23,7 +23,7 @@ const AnimatedAvatars = ({ items }) => {
     <>
       {items.map((item, idx) => (
         <div
-          className="-mr-4 relative group cursor-pointer"
+          className="-mr-4 relative group"
           key={item.name}
           onMouseEnter={() => setHoveredIndex(item.id)}
           onMouseLeave={() => setHoveredIndex(null)}

@@ -52,7 +52,7 @@ function About() {
               >
                 {Testimonials.map((testimonial, index) => (
                   <SwiperSlide key={index}>
-                    <div className="bg-neutral-300/20 rounded-lg p-6 shadow-sm h-80 sm:h-60 flex flex-col place-content-center">
+                    <div className="bg-neutral-300/20 rounded-lg p-6 shadow-sm h-80 sm:h-60 flex flex-col place-content-center cursor-grab active:cursor-grabbing">
                       <blockquote className="text-base font-medium leading-snug text-neutral-200">
                         &ldquo;{testimonial.quote}&rdquo;
                       </blockquote>

@@ -39,7 +39,7 @@ const ScrollToTopButton = () => {
       type="button"
       aria-label="Botón para volver arriba"
       onClick={scrollToTop}
-      className={`fixed bottom-4 right-4 p-3 bg-secondary text-neutral-300 rounded-full hover:scale-110 hover:transition-all hover:duration-300 transition-all duration-300 z-50 shadow-lg ${
+      className={`fixed bottom-4 right-4 p-3 bg-secondary text-neutral-300 hover:text-white rounded-full hover:scale-110 hover:transition-all hover:duration-300 transition-all duration-300 z-50 shadow-lg ${
         isVisible
           ? "opacity-100 pointer-events-auto"
           : "opacity-0 pointer-events-none"

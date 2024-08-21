@@ -42,6 +42,7 @@ function TypeWriter() {
           offset={-70}
           duration={500}
           className="w-40 h-10 rounded-md bg-secondary text-white text-base hover:scale-110 transition-transform duration-300 flex items-center justify-center cursor-pointer"
+          id="contact-button-cta"
         >
           Contáctanos
         </Link>
